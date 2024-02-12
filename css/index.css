@@ -1,0 +1,33 @@
+html {
+    overflow-y: hidden;
+}
+
+a {
+    color: lime;
+}
+
+.custom-box {
+    background-color: black; /* Cor de fundo desejada */
+}
+
+.custom-text-color {
+    color: lime;
+}
+
+.button.is-lime {
+    background-color: lime;
+}
+
+.input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100px; /* Ajuste conforme necessário para a altura do rodapé */
+    background-color: #000000; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    /* Outros estilos para o rodapé */
+}
